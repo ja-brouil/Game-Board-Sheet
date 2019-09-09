@@ -17,7 +17,8 @@ table {
   width: 100%; }
 
 th {
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
 
 .fill {
   color: white;
@@ -50,6 +51,12 @@ th {
     background-color: #eb9054;
     box-shadow: inset 0 0 0 rgba(253, 144, 84, 0.5), 0 0 1.5em rgba(253, 144, 84, 0.5);
     color: rgba(0, 0, 0, 0.8);
+    cursor: pointer; }
+  .fill.black {
+    color: #dadada;
+    text-shadow: 0px 0px 0px #ebebeb, 0px 0px 1em #ebebeb; }
+  .fill.black:hover {
+    text-shadow: 0 0 1em #ffffff, 0 0 1.5em #ffffff;
     cursor: pointer; }
 
 .helpFadeIn {
